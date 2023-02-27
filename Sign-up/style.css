@@ -1,0 +1,223 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(232, 233, 232);
+}
+
+.container{
+    width: 1100px;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: -4px 11px 21px 6px rgba(0,0,0,0.12);
+}
+
+.info{
+    background: linear-gradient(200deg, rgb(80, 153, 130) 14%, rgb(151, 197, 183) 70%);
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px
+}
+
+.info h1{
+    background: none;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 5px;
+    font-weight: 800;
+    color: white;
+}
+.info p{
+    background: none;
+    text-align: center;
+    color: rgb(222, 240, 234);
+    font-size: 15px;
+    margin-top: 5px;
+}
+.info .sign-in{
+    margin: 50px;
+    margin-top: 30px;
+    background: none;
+    padding: 8px;
+    border-radius: 20px;
+    border: 2px solid rgb(222, 240, 234);
+    color: rgb(242, 247, 245);
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.info .sign-in:hover{
+    background-color: rgb(143, 199, 182);
+}
+
+.sign-up{
+    background-color: rgb(252, 252, 252);
+    height: 100%;
+    width: 700px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    padding-top: 45px;
+}
+
+.sign-up h1{
+    background: none;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(118, 189, 166);
+}
+
+.sign-up .social-icons{
+    background: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin: 0px 160px 0px 160px;
+    justify-content: space-between;
+}
+
+.sign-up p{
+    background: none;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #989e9d;
+}
+
+.social-icons .icon{
+    color: #a1a7a6;
+    display: flex;
+    background-color: rgb(252, 252, 252);
+    border: 2px solid rgb(232, 233, 232);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.social-icons .icon:hover{
+    background-color: rgb(232, 233, 232);
+    color: #fafafa;
+}
+
+.icon i{
+    background: none;
+}
+
+.sign-up .form{
+    background: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 80px 50px 80px;
+}
+
+.input-group{
+    background: none;
+}
+
+.label-input{
+    margin: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.shake-horizontal {
+	animation: shake-horizontal 0.8s ease-in-out both;
+}
+
+ @keyframes shake-horizontal {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      transform: translateX(-5px);
+    }
+    20%,
+    40%,
+    60% {
+      transform: translateX(10px);
+    }
+    80% {
+      transform: translateX(8px);
+    }
+    90% {
+      transform: translateX(-8px);
+    }
+  }
+  
+
+.label-input i{
+    color: #7a8381;
+}
+
+.label-input input{
+    width: 100%;
+    border: none;
+    margin-left: 10px;
+    outline: none;
+    text-decoration: none;
+    background-color: none; 
+}
+
+::-webkit-input-placeholder {
+    color: #a1a7a6;
+    font-weight: 600;
+}
+
+.form button{
+    margin: 80px;
+    margin-top: 30px;
+    background-color: rgb(118, 189, 166);
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.form button:hover{
+    background-color: rgb(159, 212, 196);
+}
+
+.error{
+    background-color: rgb(241, 199, 199);
+    font-size: 13px;
+    color: rgb(90, 65, 65);
+    font-weight: 600;
+    display: none;
+    padding: 3px;
+    padding-left: 8px;
+    width: 95%;
+    margin-left: 8px;
+    word-break: break-all;
+    border-radius: 5px;
+}
+
+.error-input{
+    border: 2px solid rgb(196, 59, 59) !important;
+}
