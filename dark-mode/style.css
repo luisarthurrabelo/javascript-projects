@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+.dark-mode body {
+  background-color: #3a3a3a;
+  color: #d6d6d5;
+}
+
+.container {
+  background-color: #f8f8f8;
+  width: 800px;
+  height: 400px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.dark-mode .container {
+  background-color: #302f2f;
+}
+
+.top-box {
+  background-color: #cca879;
+  width: 800px;
+  height: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.dark-mode .top-box {
+  background-color: #53647a;
+}
+
+.content {
+  margin: 20px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+p a {
+  color: black;
+}
+
+.dark-mode p a {
+  color: white;
+}
+
+p a:hover {
+  color: #cca879;
+  transition: all 0.1s ease-out;
+}
+
+.dark-mode p a:hover {
+  color: #53647a;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 130px;
+  justify-content: space-between;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  color: #cfcfcf;
+  display: flex;
+  background-color: #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 10px 10px #edeeee;
+}
+
+.dark-mode .icon {
+  color: #292727;
+  background-color: #494848;
+  box-shadow: 0px 10px 10px #272626;
+}
+
+.icon:hover {
+  background-color: #dfdddd;
+  color: #adadad;
+  box-shadow: 0px 10px 10px #e4e4e4;
+  cursor: pointer;
+  transition: all 0.7s ease-out;
+}
+
+.dark-mode .icon:hover {
+  background-color: #5f5e5e;
+  color: #444343;
+  box-shadow: 0px 10px 10px #2e2d2d;
+}
+
+.dark-mode-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle {
+  width: 60px;
+  height: 25px;
+  background-color: #e7e6e6;
+  border-radius: 20px;
+  margin: 0px 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  position: relative;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  transition: .4s;
+}
+
+.dark-mode .toggle {
+  background-color: #525050;
+}
+
+.toggle:before {
+  content: '';
+  width: 26px;
+  height: 20px;
+  border-radius: 20px;
+  margin: 2.4px 3px;
+  position: absolute;
+  background-color: #cac9c9;
+  transition: 0.4s;
+}
+
+.dark-mode .toggle:before {
+  background-color: #383838;
+}
+
+.toggle:checked::before {
+  margin-left: 31px;
+}
