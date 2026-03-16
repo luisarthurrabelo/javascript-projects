@@ -2,8 +2,6 @@
 
 Contém pequenos projetos focados em lógica de programação e manipulação de interface.
 
-## O que há neste repositório?
-
 * **DragDrop-app**: Lista de criação de cards + implementação de arrastar e soltar.
 * **Sign-up**: Formulário de cadastro com validações.
 * **Slide**: Componente de carrossel de imagens.
