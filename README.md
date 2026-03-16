@@ -2,7 +2,7 @@
 
 Contém pequenos projetos focados em lógica de programação e manipulação de interface.
 
-## 🛠️ O que há neste repositório?
+## O que há neste repositório?
 
 * **DragDrop-app**: Lista de criação de cards + implementação de arrastar e soltar.
 * **Sign-up**: Formulário de cadastro com validações.
@@ -10,7 +10,7 @@ Contém pequenos projetos focados em lógica de programação e manipulação de
 * **dark-mode**: Alternador de tema dinâmico.
 * **toDo-app**: Lista de tarefas clássica.
 
-## 🚀 Tecnologias
+## Tecnologias
 * HTML5
 * CSS3
 * JavaScript (Vanilla)
